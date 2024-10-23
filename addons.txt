@@ -1,0 +1,11 @@
+software
+software/bimserverwar-1.5.185.war
+plugins
+plugins/IfcPlugins-0.0.1.jar
+plugins/gltf-0.0.62.jar
+plugins/bimsurfer3-0.0.275.jar
+plugins/bimviews-0.0.187.jar
+plugins/BinarySerializers-0.0.3.jar
+plugins/console-0.0.70.jar
+plugins/IfcOpenShellPlugin-0.0.1.jar
+plugins/Mergers-0.0.1.jar

@@ -11,3 +11,8 @@ or
 * use the `docker-compose.yml` by editing WAR file, image name, port and other
 
 BIMServer can be initialized via the web onboarding available at http://localhost:8080.
+
+# Add more related jar
+
+* goto [[https://oss.sonatype.org/content/groups/public/org/opensourcebim/][download]]
+* notice addons.txt

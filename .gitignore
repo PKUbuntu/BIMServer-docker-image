@@ -1,1 +1,4 @@
 *.war
+*.jar
+tmp
+

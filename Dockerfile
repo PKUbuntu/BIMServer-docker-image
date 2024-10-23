@@ -1,4 +1,4 @@
-FROM tomcat:9-jdk15-adoptopenjdk-hotspot
+FROM docker.m.daocloud.io/docker.io/tomcat:9-jdk15-adoptopenjdk-hotspot
 ARG BIMSERVER_WAR
 ENV _JAVA_OPTIONS="-XX:MaxRAMPercentage=75.0"
 RUN apt-get update && apt-get install -y wget
