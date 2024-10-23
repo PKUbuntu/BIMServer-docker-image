@@ -14,5 +14,5 @@ BIMServer can be initialized via the web onboarding available at http://localhos
 
 # Add more related jar
 
-* goto [[https://oss.sonatype.org/content/groups/public/org/opensourcebim/][download]]
+* goto https://oss.sonatype.org/content/groups/public/org/opensourcebim
 * notice addons.txt
