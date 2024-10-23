@@ -1,7 +1,7 @@
 FROM docker.m.daocloud.io/docker.io/tomcat:9-jdk15-adoptopenjdk-hotspot
 ARG BIMSERVER_WAR
 ENV _JAVA_OPTIONS="-XX:MaxRAMPercentage=75.0"
-RUN apt-get update && apt-get install -y wget
+RUN apt-get update && apt-get install -y wget maven
 RUN mkdir /var/www/localhost -p
 RUN mkdir /var/bimserver/home -p
 ADD ${BIMSERVER_WAR} /var/www/localhost/ROOT.war
